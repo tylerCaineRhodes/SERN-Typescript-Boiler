@@ -1,0 +1,13 @@
+drop database if exists DATABASE_NAME;
+
+create database DATABASE_NAME;
+
+use DATABASE_NAME;
+
+create table TABLE_NAME (
+  id SERIAL primary key,
+  image varchar(255),
+  name varchar(255),
+  rating DECIMAL(18,2),
+  category varcahr(255)
+);

@@ -1,15 +1,13 @@
-drop database if exists DATABASE_NAME;
+DROP DATABASE IF EXISTS database_name;
 
-create database DATABASE_NAME;
+CREATE DATABASE database_name;
 
-use DATABASE_NAME;
+USE database_name;
 
-
-create table TABLE_NAME (
-
-  id int primary key,
-  image varchar(512),
-  name text,
-  rating tinyint,
-  category text
+CREATE TABLE table_name (
+  id INT PRIMARY KEY,
+  image VARCHAR(512),
+  name TEXT,
+  rating TINYINT,
+  category TEXT
 );
